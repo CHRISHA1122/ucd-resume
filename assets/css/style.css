@@ -18,6 +18,10 @@
     background-color: #8f8f8f;
 }
 
+.bg-color-contact {
+    background-color: #fff;
+}
+
 .ui-menu-color-home {
     background-color: #0180FF;
 }
@@ -39,7 +43,8 @@
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
     margin: 0;
     color: black;
 }
@@ -334,4 +339,38 @@ margin-bottom: 15px;
 
 .history-items {
     margin-bottom: 30px;
+}
+
+/*--------------------------------------------Contact Form*/
+
+.cotact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: black;
+    background-color: #8f8f8f;
+
+}
+
+/*--------------------------------------------Media Queries*/
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240x;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
